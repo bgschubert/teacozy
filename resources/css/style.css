@@ -1,0 +1,44 @@
+/*Page level design attributes*/
+body{
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+display: block;
+}
+
+/*Header Design Attributes*/
+header{
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+header img{
+  margin-left: 10px;
+  height: 50px;
+}
+
+header nav{
+  justify-content: flex-end;
+  margin-right: 20px
+}
+
+nav a{
+
+color: white;
+text-decoration: underline;
+margin: 0 10px;
+}
